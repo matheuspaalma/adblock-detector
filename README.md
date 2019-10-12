@@ -4,4 +4,4 @@ Detector de bloqueadores de anuncios simples.
 ● JavaScript
 # Change Log
 <h3>v1.0.0</h3><br>
-● Início do projeto
+● Lançamento do projeto
