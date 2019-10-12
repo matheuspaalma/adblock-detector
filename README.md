@@ -1,5 +1,5 @@
 # AdBlock Detector
-Detector de bloqueadores de anuncios simples.
+Detector de bloqueadores de anúncios.
 # Tecnologias utilizadas
 ● JavaScript
 # Change Log
