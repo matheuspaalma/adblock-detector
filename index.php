@@ -10,12 +10,22 @@
 
 	<body>
 
-		<p>Adblock detector page</p>
+		<h3>Adblock detector page</h3>
+
+		<p>O conteúdo da página será exibido aqui caso um bloqueador de anúncios não seja detectado.</p>
 
 		<script>
-			if( typeof antiAdblock == "undefined" ){
-        		alert("Um bloqueador de anuncios foi detectado!");
-    		}
+			if( typeof antiAdblock == "undefined" ) {
+        		location.replace("php/blocked.php");
+    		} else {
+				if( typeof rdN == "undefined" ) {
+					location.replace("php/blocked.php");
+				} else {
+					if( rdN != "CkXWl9nvkyjtyK6jsHRDzsYDzb8hxGe7pAuya5Ap" ) {
+						location.replace("php/blocked.php");
+					}
+				}
+			}
 		</script>
 
 	</body>
